@@ -11,10 +11,10 @@ design rationale, architecture, and week-by-week plan.
 
 ## Status
 
-Scaffolding stage — module contracts and glue code are in place;
-`core/robot_sim.py`, `core/sensors.py`, `core/ekf.py`, `core/controller.py`,
-and `core/metrics.deviation_from_ideal` still raise `NotImplementedError`
-and are the actual project work (see the guide's 8-week schedule).
+`core/robot_sim.py`, `core/sensors.py`, and `core/ekf.py` are implemented
+and tested. `core/controller.py` and `core/metrics.deviation_from_ideal`
+still raise `NotImplementedError` and are the remaining project work (see
+the guide's 8-week schedule).
 
 ## Layout
 
